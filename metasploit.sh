@@ -7,11 +7,7 @@ pkg install figlet
 figlet METASPLOIT
 figlet MENU
 echo '1.Install metasploit '
-echo '2.Install metasploit and play mp3 '
-echo '3.exit '
-echo
-echo -e "\e[1;34m"
-read -p 'select_option >' opt
+ead -p 'select_option >' opt
 echo -e "\e[1;33m"
 
 if [ $opt -eq 1 ];then
@@ -57,7 +53,7 @@ clear
 figlet METASPLOIT
 figlet INSTALLATION
 figlet AND PLAY SONG
-sleep 7
+sleep 3
 echo " "
 echo " "
 echo
@@ -71,15 +67,13 @@ echo "$y Termux-Api ke bina song nhi bajega$y"
 echo " "
 echo "$y Agr Install hai to play hone wala hai ab $yy"
 echo " "
-sleep 2
-termux-media-player play song.mp3
+sleep 1
 echo " "
 echo "$g Ab metasploit install ho rha hai $g"
 echo " "
 echo "$y Installing.......... $y"
 apt-get install unstable-repo
 apt-get install metasploit
-termux-media-player stop
 echo " "
 figlet METASPLOIT
 figlet INSTALLED
