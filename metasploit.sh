@@ -8,7 +8,7 @@ figlet METASPLOIT
 figlet MENU
 echo '1.Install metasploit '
 ead -p 'select_option >' opt
-echo -e "\e[1;33m"
+echo -e "Hiya²"
 
 if [ $opt -eq 1 ];then
 echo " "
@@ -23,7 +23,7 @@ echo " "
 clear
 figlet Metasploit
 figlet Installation
-sleep 7
+sleep 2
 echo " "
 echo "$y Ab metasploit Install hone ja rha hai $y"
 echo " "
@@ -50,26 +50,11 @@ pkg install wget
 pkg install termux-api
 echo " "
 clear
-figlet METASPLOIT
-figlet INSTALLATION
-figlet AND PLAY SONG
 sleep 3
 echo " "
 echo " "
 echo
-echo "$y Ab metasploit Install hone ja rha hai $y"
-echo " "
-echo "$y Termux-Api Install karo $y"
-echo " "
-echo "$y Play store me hai $y"
-echo " "
-echo "$y Termux-Api ke bina song nhi bajega$y"
-echo " "
-echo "$y Agr Install hai to play hone wala hai ab $yy"
-echo " "
 sleep 1
-echo " "
-echo "$g Ab metasploit install ho rha hai $g"
 echo " "
 echo "$y Installing.......... $y"
 apt-get install unstable-repo
